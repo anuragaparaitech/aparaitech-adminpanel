@@ -18,6 +18,7 @@ import PlatformForm from './pages/Platforms/PlatformForm';
 import Collaborations from './pages/Collaborations/Collaborations';
 import CollaborationForm from './pages/Collaborations/CollaborationForm';
 import Settings from './pages/Settings';
+import Responses from './pages/Responses/Responses';
 
 function App() {
   return (
@@ -59,6 +60,9 @@ function App() {
 
             {/* Settings */}
             <Route path="settings" element={<Settings />} />
+
+            {/* Responses */}
+            <Route path="responses" element={<Responses />} />
           </Route>
           <Route path="*" element={<Navigate to="/dashboard" replace />} />
         </Routes>

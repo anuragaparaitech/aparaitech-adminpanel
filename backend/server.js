@@ -18,6 +18,7 @@ app.use('/api/careers', require('./routes/careers'));
 app.use('/api/services', require('./routes/services'));
 app.use('/api/platforms', require('./routes/platforms'));
 app.use('/api/collaborations', require('./routes/collaborations'));
+app.use('/api/responses', require('./routes/responses'));
 
 // Health check
 app.get('/', (req, res) => res.json({ message: 'Company Admin API running' }));

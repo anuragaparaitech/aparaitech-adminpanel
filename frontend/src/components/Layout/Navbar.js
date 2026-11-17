@@ -10,6 +10,7 @@ const pageTitles = {
   '/services':       'Services',
   '/platforms':      'Platforms',
   '/collaborations': 'Collaborations',
+  '/responses':      'Responses',
   '/settings':       'Settings',
 };
 

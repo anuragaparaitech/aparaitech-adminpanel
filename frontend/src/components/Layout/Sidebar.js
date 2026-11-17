@@ -7,6 +7,7 @@ import {
   MdDevices,
   MdHandshake,
   MdSettings,
+  MdInbox,
   MdClose,
 } from 'react-icons/md';
 import './Sidebar.css';
@@ -17,6 +18,7 @@ const navItems = [
   { path: '/services',       label: 'Services',       icon: <MdBuildCircle /> },
   { path: '/platforms',      label: 'Platforms',      icon: <MdDevices /> },
   { path: '/collaborations', label: 'Collaborations', icon: <MdHandshake /> },
+  { path: '/responses',      label: 'Responses',      icon: <MdInbox /> },
 ];
 
 const bottomItems = [
